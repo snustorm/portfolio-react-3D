@@ -7,6 +7,10 @@ import { useMediaQuery } from 'react-responsive'
 import { calculateSizes } from '../constants'
 import Target from '../components/Target'
 import ReactLogo from '../components/ReactLogo'
+import Cube from '../components/Cube'
+import Rings from '../components/Rings'
+import HeroCamera from '../components/HeroCamera'
+import Button from '../components/Button'
 
 const Hero = () => {
 
@@ -32,20 +36,24 @@ const Hero = () => {
             <Canvas className="w-full h-full">
                 <Suspense fallback={<CanvasLoader />}>
 
-                    <PerspectiveCamera makeDefault position={[0, 0, 20]} />
+                    <PerspectiveCamera makeDefault position={[0.9, 0, 20]} />
 
-                    <HackerRoom 
-                        // position={isMobile? [1, -6, 2] : [2, -8, 2]}  
-                        // rotation={[0, -Math.PI, 0]} 
-                        // scale = {isMobile ? 0.07 : 0.1}
-                        position = {sizes.deskPosition}
-                        rotation = {[0, -Math.PI, 0]}
-                        scale = {sizes.deskScale}
-                    />
+                    <HeroCamera isMobile={isMobile}>
+                        <HackerRoom 
+                            position={isMobile? [1, -6, 2] : [0.8, -4.4, 1.5]}  
+                            // rotation={[0, -Math.PI, 0]} 
+                            // scale = {isMobile ? 0.07 : 0.1}
+                            // position = {sizes.deskPosition}
+                            rotation = {[0.13, -Math.PI, 0]}
+                            scale = {sizes.deskScale}
+                        />
+                    </HeroCamera>
 
                     <group>
                         <Target position={sizes.targetPosition}/>
                         <ReactLogo position={sizes.reactLogoPosition} />
+                        <Cube position={sizes.cubePosition} />
+                        <Rings position={sizes.ringPosition} />
                     </group>
                
 
@@ -55,6 +63,15 @@ const Hero = () => {
                 </Suspense>
             </Canvas>
         </div>
+        <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space flex justify-center">
+            <a href="#about" className="w-fit">
+                <Button 
+                    name="Let's work together" 
+                    isBeam 
+                    containerClass="sm:w-auto w-full sm:min-w-96"
+                />
+        </a>
+</div>
     </section>
   )
 }

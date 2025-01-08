@@ -9,8 +9,6 @@ const ReactLogo = (props) => {
     <Float floatIntensity={1}>
       <group position={[8, 8 , 0]} scale={0.3}  {...props}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes['React-Logo_Material002_0'].geometry}
           material={materials['Material.002']}
           position={[0, 0.079, 0.181]}
