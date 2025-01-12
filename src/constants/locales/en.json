@@ -1,0 +1,236 @@
+{
+    "navLinks": [
+      { "name": "Home", "href": "#home" },
+      { "name": "About", "href": "#about" },
+      { "name": "Work", "href": "#work" },
+      { "name": "Contact", "href": "#contact" }
+    ],
+    "heroContent": {
+      "welcome": "Hi, I am Chester",
+      "intro": "Building Web3 Infra / Dapps",
+      "button": "Let's work together"
+    },
+    "aboutMe": {
+        "profile_title": "Hi, I am Chester(snustorm)",
+        "profile_content": "With 5 years of web3 experience, I have honed my skills in frontend/backend/smart contract development, with a focus on building and expanding a blockchain project",
+        "tech_title": "Tech Stack",
+        "tech_content": "I special in Rush/C++/TypeScript with a focus on Solana ecosystem ",
+        "remote_title": "I can work remotely",
+        "remote_content": "Remote work available for exceptional company/projects from all around the world",
+        "passion_title": "My Passion for Coding",
+        "passion_content": "I love solving problems and building things through code. Programming isn&apos;t just my profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.",
+        "button": "Contact Me",
+        "wechat": "Wechat"
+      },
+    "Project" :{
+        "title": "My Web3 Footage",
+        "button": "Check Live Site"
+    },
+    "myProjects": [
+      {
+        "title": "Box Fulcrum - Multi-assets Lending Platform",
+        "desc": "Box Fulcrum is a fully functional, multi-asset lending protocol built on the Solana Devnet.",
+        "subdesc": "This platform is designed and developed from the ground up, featuring independently crafted front-end and smart contracts. It empowers users to perform a wide range of DeFi operations, including lending, borrowing, withdrawing, repaying, and liquidating assets with ease and efficiency.",
+        "href": "https://solana-lending-website.vercel.app/",
+        "texture": "/textures/project/box.mp4",
+        "logo": "/assets/project-logo1.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight1.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "Solana Swap Platform",
+        "desc": "Solana Swap is a functionally demo to support any swaps between two Spl-tokens",
+        "subdesc": "The front-end/smart contracts of this project are independently developed and deployed on Solana devnet. Users can perform offering/swapping action to exchange their tokens seamlessly.",
+        "href": "https://solana-swap-app-six.vercel.app/",
+        "texture": "/textures/project/swap.mp4",
+        "logo": "/assets/sol.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight5.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "Solana Lottery Platform",
+        "desc": "Solana Lottery supports users to buy lottery tickets and draw lottery numbers",
+        "subdesc": "The front-end/smart contracts of this project are independently developed and deployed on Solana devnet. Users can easilty create a lottery pool or join the bid of other pools",
+        "href": "https://solana-lottery-app-psi.vercel.app/",
+        "texture": "/textures/project/lottery.mp4",
+        "logo": "/assets/lottery.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight5.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "XORA - AI video SaaS Website",
+        "desc": "Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CS.",
+        "subdesc": "With a focus on the user experience, Xora is a modern SaaS website that provides a variety of services to users. The website is developed using React.js and Tailwind CSS, and the user interface is designed to be simple and intuitive.",
+        "href": "https://xora-react-ivory.vercel.app/",
+        "texture": "/textures/project/xora.mp4",
+        "logo": "/assets/xora.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight2.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "React.js",
+              "path": "/assets/react.svg"
+            },
+            {
+              "id": 2,
+              "name": "TailwindCSS",
+              "path": "assets/tailwindcss.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Framer Motion",
+              "path": "/assets/framer.png"
+            }
+          ]
+      },
+      {
+        "title": "KuCoin Spotlight - IEO platform of KuCoin",
+        "desc": "KuCoin Spotlight is one of most popular IEO platform in the world",
+        "subdesc": "I have re-designed and set the rules of product, from 2020 to 2022, i have responsible for holding the 5th - 24th Spotlight events includes famous projects like LUKSO, VELO",
+        "href": "https://www.kucoin.com/spotlight-center",
+        "texture": "/textures/project/spotlight.mp4",
+        "logo": "/assets/spotlight.png",
+        "logoStyle": {
+            "backgroundColor": "transparent",
+            "border": "0.2px solid rgba(54, 32, 29, 0.3)",  
+            "boxShadow": "0px 0px 60px 0px rgba(170, 60, 48, 0.3)" 
+        },
+        "spotlight": "/assets/spotlight3.png",
+        "tags": [
+          ]
+      }
+    ],
+    "experience" :{
+        "title": "My Work Experience"
+    },
+    "workexperience":
+    [
+        {
+          "id": 1,
+          "name": "Easton Wason",
+          "pos": "C++ Software Engineer(Algorithum)",
+          "duration": "2023 - 2024",
+          "title": "Responsible for the development of active phased array radar quality control software, using the program to convert the radar raw signal into image data that can be used by business software, responsible for optimizing C++ programs (including data structure optimization, multi-threading optimization, memory usage optimization, code logic optimization, algorithm optimization, etc.), compared with the old version of the program, the overall efficiency is improved by 3-4 times",
+          "icon": "/assets/easton-wason.png",
+          "animation": "victory"
+        },
+        {
+          "id": 2,
+          "name": "Thunder Software",
+          "pos": "Senior C++ Software Engineer",
+          "duration": "2022 - 2023",
+          "title": "Responsible for the development of the autonomous driving map learning module. As a core module developer, he is responsible for the entire development cycle from project launch to delivery. Designed and implemented high-performance C++ algorithms, including data import, data cleaning, and clustering algorithms, to ensure that the generated high-precision maps have sufficient accuracy and scalability.",
+          "icon": "/assets/thundersoft.png",
+          "animation": "clapping"
+        },
+        {
+          "id": 3,
+          "name": "KuCoin",
+          "pos": "Head of Spot Operation",
+          "duration": "2019 - 2022",
+          "title": "Build the spot operation department of the exchange from 0 to 1. As the core department of the company, lead the team to manage the operation of all over 500 cash currencies in the entire life cycle of the exchange",
+          "icon": "/assets/kucoin.png",
+          "animation": "salute"
+        }
+    ],
+    "contact" :{
+        "title": "Let's talk",
+        "description": "Whether you’re looking to build a new dapp, improve your existing blockchain project, or bring a unique idea to life, I’m here to help.",
+        "name": "Full Name",
+        "email": "Email address",
+        "message": "Your Message",
+        "p_name": "ex., John Doe",
+        "p_address": "ex., johndoe@gmail.com",
+        "p_message": "ex., I have a project in mind that I’d like to discuss with you.",
+        "button": "Send Message",
+        "button_sending": "Sending..."
+    }
+  }

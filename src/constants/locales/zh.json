@@ -1,0 +1,235 @@
+{
+    "navLinks": [
+      { "name": "首页", "href": "#home" },
+      { "name": "关于", "href": "#about" },
+      { "name": "工作", "href": "#work" },
+      { "name": "联系", "href": "#contact" }
+    ],
+    "heroContent": {
+          "welcome": "你好, 我是 Chester",
+          "intro": "构建区块链基础设施 / 去中心应用",
+          "button": "一起合作"
+    },
+    "aboutMe": {
+        "profile_title": "你好, 我是 Chester(snustorm)",
+        "profile_content": "我是一名拥有5年区块链/Web3经验的开发者, 毕业于加拿大阿尔伯塔大学; 曾任职过加密货币交易所现货负责人和多家软件科技公司以及web3投资孵化机构",
+        "tech_title": "技术栈",
+        "tech_content": "熟练掌握C++/Rust等其他底层语言, 具有丰富的区块链应用开发经验和一定的前端开发经验(node.js, TypeScript)",
+        "remote_title": "远程工作无障碍",
+        "remote_content": "熟悉web3工作模式, 可以远程/线下办公",
+        "passion_title": "我的热情",
+        "passion_content": "我对通过代码解决问题和构建事物充满热情。Coding不仅仅是我的专业, 更是我的激情所在。我喜欢探索新技术并不断提高自己的技能。",
+        "button": "建立联系",
+        "wechat": "微信"
+      },
+    "Project" :{
+        "title": "我的Web3经历",
+        "button": "在线访问"
+    },
+    "myProjects": [
+      {
+        "title": "Box Fulcrum - Solana链多币种利率借贷平台",
+        "desc": "Box Fulcrum 是一个基于 Solana 开发网络构建的功能齐全的多资产借贷协议/平台。",
+        "subdesc": "该项目前后/智能合约均独立开发并部署在Solana devnet, 用户可以通过该平台进行lending/borrowing/withdrawl/repay/liquidate等各种常见的DeFi操作, 项目已经完成了多轮的内部测试, 并在Solana devnet上线。",
+        "href": "https://solana-lending-website.vercel.app/",
+        "texture": "/textures/project/box.mp4",
+        "logo": "/assets/project-logo1.png",
+        "logoStyle": {
+            "backgroundColor": "gray",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight1.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "Solana 币币兑换平台",
+        "desc": "Solana Swap是一个功能演示, 支持任意两个Spl代币之间的随时交换",
+        "subdesc": "不同于uniswap的AMM机制, 该合约使用订单的方式, 用户可自行创建想要兑换的代币和提供的数量, 如果改订单被其他用户确认, 双方将自动获得想要的代币, 且仅需支付微量gas费用",
+        "href": "https://solana-swap-app-six.vercel.app/",
+        "texture": "/textures/project/swap.mp4",
+        "logo": "/assets/sol.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight5.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "Solana Lottery Platform",
+        "desc": "Solana Lottery是一个完全去中心化的智能合约, 该合约支持用户创建奖池, 购买奖卷, 并以去中心化随机的形式产生赢家, 并自动分发奖励",
+        "subdesc": "本项目的前端/智能合约自主开发, 部署在Solana开发网络上, 用户可以轻松创建抽奖池或加入其他池的竞标",
+        "href": "https://solana-lottery-app-psi.vercel.app/",
+        "texture": "/textures/project/lottery.mp4",
+        "logo": "/assets/lottery.png",
+        "logoStyle": {
+            "backgroundColor": "#2A1816",
+            "border": "0.2px solid #36201D",
+            "boxShadow": "0px 0px 60px 0px #AA3C304D"
+        },
+        "spotlight": "/assets/spotlight5.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "Solana",
+              "path": "/assets/sol.png"
+            },
+            {
+              "id": 2,
+              "name": "Anchor",
+              "path": "assets/anchor.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Rust",
+              "path": "/assets/rust.png"
+            }
+          ]
+      },
+      {
+        "title": "XORA - AI 视频SaaS落地页",
+        "desc": "Xora 是一个使用 React.js 和 Tailwind CS 开发的具有现代化设计的UI/UX SaaS网站。",
+        "subdesc": "该专注于提供交互性的用户体验，为用户提供各种服务， 其中包含灵活的产品介绍， 价格， 评价及下载模块。该网站使用 React.js 和 Tailwind CSS 开发，用户界面设计简单直观并支持手机/桌面端",
+        "href": "https://xora-react-ivory.vercel.app/",
+        "texture": "/textures/project/xora.mp4",
+        "logo": "/assets/xora.png",
+        "logoStyle": {
+            "backgroundColor": "gray",
+            "border": "0.2px solid rgba(54, 32, 29, 0.3)",  
+            "boxShadow": "0px 0px 60px 0px rgba(170, 60, 48, 0.3)" 
+        },
+        "spotlight": "/assets/spotlight2.png",
+        "tags": [
+            {
+              "id": 1,
+              "name": "React.js",
+              "path": "/assets/react.svg"
+            },
+            {
+              "id": 2,
+              "name": "TailwindCSS",
+              "path": "assets/tailwindcss.png"
+            },
+            {
+              "id": 3,
+              "name": "TypeScript",
+              "path": "/assets/typescript.png"
+            },
+            {
+              "id": 4,
+              "name": "Framer Motion",
+              "path": "/assets/framer.png"
+            }
+          ]
+      },
+      {
+        "title": "KuCoin Spotlight - IEO平台",
+        "desc": "KuCoin Spotlight是世界上最受欢迎的 IEO平台之一",
+        "subdesc": "KuCoin IEO是我加入公司后负责的最重要的项目之一, 我重新设计了产品页面并制定了不同的新币售卖规则; 从2020年到2022年, 我负责举办第5至第24期IEO活动, 其中包括LUKSO、VELO等著名项目, 吸引了大量资沉和新用户",
+        "href": "https://www.kucoin.com/spotlight-center",
+        "texture": "/textures/project/spotlight.mp4",
+        "logo": "/assets/spotlight.png",
+        "logoStyle": {
+            "backgroundColor": "transparent",
+            "border": "0.2px solid rgba(54, 32, 29, 0.3)", 
+            "boxShadow": "0px 0px 60px 0px rgba(170, 60, 48, 0.3)"
+        },
+        "spotlight": "/assets/spotlight3.png",
+        "tags": [
+          ]
+      }
+    ],
+    "experience" :{
+        "title": "工作经历"
+    },
+    "workexperience": [
+        {
+          "id": 1,
+          "name": "宜通华盛",
+          "pos": "C++软件工程师",
+          "duration": "2023 - 2024",
+          "title": "负责有源相控阵雷达质控软件开发，利用程序将雷达原始信号转换成可被业务软件使用的图像数据, 负责编写/优化C++程序（包括数据结构优化，多线程优化，内存占用优化，代码逻辑优化，算法优化等), 较于旧版程序整体效率提升3-4倍",
+          "icon": "/assets/easton-wason.png",
+          "animation": "victory"
+        },
+        {
+          "id": 2,
+          "name": "中科创达",
+          "pos": "高级C++软件工程师",
+          "duration": "2022 - 2023",
+          "title": "负责自动驾驶地图学习模块的开发, 作为核心模块的开发人员负责从项目启动到交付的整个开发周期。设计并实现了高性能的C++算法，包括数据导入、数据清理和聚类算法，确保生成的高精度地图具有足够的精度以及扩展性",
+          "icon": "/assets/thundersoft.png",
+          "animation": "clapping"
+        },
+        {
+          "id": 3,
+          "name": "KuCoin Exchange",
+          "pos": "现货运营负责人",
+          "duration": "2019 - 2022",
+          "title": "从0到1搭建交易所现货运营部门, 作为公司核心部门, 带领团队管理所有超500个现货币种在交易所全生命周期的运营",
+          "icon": "/assets/kucoin.png",
+          "animation": "salute"
+        }
+    ],
+    "contact" :{
+        "title": "建立联系",
+        "description": "向我发送任意关于区块链开发的问题或消息 💻",
+        "name": "您的称呼",
+        "email": "您的邮箱",
+        "message": "消息",
+        "p_name": "",
+        "p_address": "",
+        "p_message": "",
+        "button": "发送邮件",
+        "button_sending": "发送中..."
+    }
+  }

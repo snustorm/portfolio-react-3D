@@ -1,4 +1,3 @@
-import { button } from 'leva'
 import React from 'react'
 
 const Button = ( {name, isBeam = false, containerClass}) => {

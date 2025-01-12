@@ -101,7 +101,7 @@ body {
 
   /*  work experience section */
   .work-container {
-    @apply grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12;
+    @apply grid lg:grid-cols-4 grid-cols-1 gap-5 mt-12;
   }
 
   .work-canvas {
@@ -109,7 +109,7 @@ body {
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    @apply col-span-3 rounded-lg bg-black-200 border border-black-300;
   }
 
   .work-content_container {
@@ -126,7 +126,7 @@ body {
 
   /* contact section */
   .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-24;
   }
 
   .field-label {
@@ -195,3 +195,29 @@ body {
     transform: rotate(0deg);
   }
 }
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #f79b3ecc; /* Bright yellow */
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 0, 0); /* Fades out */
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0); /* No shadow */
+    }
+}
+
+.pulse-highlight {
+    animation: pulse 1.5s ease-out infinite;
+}
+
+.blur-box {
+    position: absolute;
+    inset: -15px; /* Adjust this to control the blur spread */
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    filter: blur(20px); /* Adjust blur intensity */
+    border-radius: 15px; /* Match the image's rounded corners */
+    z-index: 0; 
+  }
