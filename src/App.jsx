@@ -10,7 +10,7 @@ import './i18n.js';
 
 const App = () => {
   return (
-     <main className="max-w-7xl max-auto">
+     <main className="max-w-screen-2xl max-auto">
         <Navbar/>
         <Hero/>
         <About />

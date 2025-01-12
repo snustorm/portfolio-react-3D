@@ -17,15 +17,15 @@ const Experience = () => {
             </h3>
 
             <div className="work-container">
-                <div className="work-canvas flex justify-center items-center">
-                    <div className="relative m-5">
-                        <div className="absolute inset-0 blur-box"></div>
-                        <img
-                            src="/assets/working.png"
-                            alt="Working"
-                            className="rounded-md shadow-lg"
-                        />
-                        </div>
+                <div className="work-canvas flex justify-center items-centerss">
+                <div className="relative m-5 lg:block hidden">
+                    <div className="absolute inset-0 blur-box"></div>
+                    <img
+                    src="/assets/working.png"
+                    alt="Working"
+                    className="rounded-md shadow-lg"
+                    />
+                </div>
                 </div>
 
                 <div className="work-content">
